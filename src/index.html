@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet">
     <title>The Coffee Style</title>
+    <script src="main.js" type="text/javascript" async></script>
 </head>
 <body>
 <div id="root">
-    <div class="wrapper-container max-w-screen-2xl text-base bg-amber-700 mx-auto px-8">
-        <div class="header bg-cyan-300 py-6 mx-10">
-            <nav class="flex flex-row justify-between items-center">
+    <div class="wrapper-container font-Karla max-w-screen-2xl text-base bg-gray-400 mx-auto px-8">
+        <div class="header p-6 mx-auto">
+            <nav class="flex flex-row justify-between items-center relative">
                 <div class="logo basis-2/6 font-semibold text-xl cursor-pointer text-center">CoffeStyle.</div>
-                <ul class="flex justify-end uppercase basis-3/6 gap-8 text-gray-500 text-sm items-center font-medium">
+                <ul id="ct-top-menu" class="hidden lg:flex lg:justify-end uppercase lg:basis-3/6 lg:gap-8 text-gray-500 text-sm items-center font-medium animate-slideDown">
                     <li class="ct-top-menu-item">
                         <a class="" href="">Home</a>
                     </li>
@@ -35,7 +36,7 @@
                         <a class="" href="">YenDoan</a>
                     </li>
                 </ul>
-                <ul class="basis-1/6 flex justify-start uppercase text-gray-500 text-sm items-center font-medium ml-16">
+                <ul class="basis-3/6 flex justify-end uppercase text-gray-500 text-sm items-center font-medium ml-16">
                     <li class="ct-top-menu-item">
                         <a class="flex items-center" href="">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ct-icon">
@@ -46,6 +47,11 @@
                         </a>
                     </li>
                 </ul>
+                <div id="ct-top-toggle-menu" class="basis-1/6 lg:hidden sm:px-4 px-2 cursor-pointer flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ct-icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </div>
             </nav>
         </div>
         <main class="main">
