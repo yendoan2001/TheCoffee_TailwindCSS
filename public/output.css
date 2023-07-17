@@ -671,10 +671,6 @@ video {
   background-color: rgb(180 83 9 / var(--tw-bg-opacity));
 }
 
-.bg-\[\]{
-  background-color: ;
-}
-
 .bg-slate-900{
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
@@ -703,28 +699,8 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-\[url\(\'img\/try\.jpg\'\)\]{
-  background-image: url('img/try.jpg');
-}
-
-.bg-\[url\(\'\.\.\/public\/img\/try\.jpg\'\)\]{
-  background-image: url('../public/img/try.jpg');
-}
-
 .bg-\[url\(\'\.\.\/public\/img\/slider-bg\.jpeg\'\)\]{
   background-image: url('../public/img/slider-bg.jpeg');
-}
-
-.bg-\[url\(\'\.\.\/public\/slider-bg\.jpeg\'\)\]{
-  background-image: url('../public/slider-bg.jpeg');
-}
-
-.bg-\[url\(\'slider-bg\.jpeg\'\)\]{
-  background-image: url('slider-bg.jpeg');
-}
-
-.bg-\[url\(\'slider-bg\.svg\'\)\]{
-  background-image: url('slider-bg.svg');
 }
 
 .bg-\[url\(\'\.\.\/public\/img\/slider-bg\.svg\'\)\]{
