@@ -5,7 +5,7 @@
 @tailwind utilities;
 /*ct=custom*/
 .ct-top-menu-item {
-    @apply cursor-pointer text-gray-500 hover:text-gray-800 py-1 relative after:lg:absolute after:lg:bg-light-coffee after:lg:h-0.5 after:lg:bottom-0
+    @apply cursor-pointer text-gray-500 hover:text-gray-800 py-1 relative after:lg:absolute after:lg:bg-coffee-200 after:lg:h-0.5 after:lg:bottom-0
     after:lg:left-0 after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300
 }
 
