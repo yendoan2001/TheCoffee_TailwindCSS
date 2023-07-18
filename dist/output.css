@@ -689,6 +689,11 @@ video {
   padding: 1.5rem;
 }
 
+.px-16{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -702,11 +707,6 @@ video {
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-.px-96{
-  padding-left: 24rem;
-  padding-right: 24rem;
 }
 
 .py-32{
@@ -857,6 +857,60 @@ video {
   text-align: center;
 }
 
+.ct-subheadline-decor-line{
+  height: 1px;
+  width: 2rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.ct-subheadline-label{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.after\:absolute::after{
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.after\:left-0::after{
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.after\:top-7::after{
+  content: var(--tw-content);
+  top: 1.75rem;
+}
+
+.after\:h-0::after{
+  content: var(--tw-content);
+  height: 0px;
+}
+
+.after\:h-0\.5::after{
+  content: var(--tw-content);
+  height: 0.125rem;
+}
+
+.after\:w-full::after{
+  content: var(--tw-content);
+  width: 100%;
+}
+
+.after\:bg-coffee-50::after{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 214 208 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-opacity-95:hover{
   --tw-bg-opacity: 0.95;
 }
@@ -864,6 +918,12 @@ video {
 .hover\:text-coffee-600:hover{
   --tw-text-opacity: 1;
   color: rgb(116 72 56 / var(--tw-text-opacity));
+}
+
+.hover\:after\:bg-coffee-400:hover::after{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(162 95 75 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px){
@@ -900,5 +960,24 @@ video {
 
   .lg\:gap-8{
     gap: 2rem;
+  }
+
+  .lg\:px-32{
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:px-64{
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+}
+
+@media (min-width: 1536px){
+  .\32xl\:px-96{
+    padding-left: 24rem;
+    padding-right: 24rem;
   }
 }

@@ -20,3 +20,11 @@
 .ct-top-menu-expanded {
     @apply absolute top-10 bg-white w-full z-50 text-center
 }
+
+.ct-subheadline-decor-line {
+    @apply w-8 h-px bg-gray-200
+}
+
+.ct-subheadline-label {
+    @apply uppercase text-gray-500 mx-2 font-medium tracking-widest text-[13px]
+}
