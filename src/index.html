@@ -9,7 +9,9 @@
 </head>
 <body>
 <div id="root">
-    <div class="wrapper-container font-Karla max-w-screen-2xl text-base mx-auto px-8">
+    <div class="wrapper-container font-Karla max-w-screen-2xl text-base mx-auto px-2">
+
+        <!--header-->
         <div class="header p-6 mx-auto">
             <nav class="flex flex-row justify-between items-center relative">
                 <div class="logo basis-2/6 font-semibold text-xl cursor-pointer text-center">CoffeStyle.</div>
@@ -59,6 +61,9 @@
                 </div>
             </nav>
         </div>
+        <!--header-->
+
+        <!--main-->
         <main class="">
             <div class="h-[530px] bg-[url('https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a58aaecdfba_Header-Pic.jpg')] bg-cover bg-no-repeat bg-bottom">
                 <div class="bg-gray-900 bg-opacity-40 h-full w-full flex justify-center items-center">
@@ -406,7 +411,11 @@
                     </div>
                 </div>
             </div>
-            <!--coffe-magazine-->
+            <!--endcoffe-magazine-->
+
+            <!--parallax-->
+            <div class="w-[100vw] relative left-[calc(-50vw+50%)] my-24 bg-fixed bg-[url('https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7ac1c6ecdfd2_Section%20Image%202.jpg')] bg-no-repeat bg-cover bg-center h-[400px]"></div>
+            <!--end parallax-->
 
             <!--lifestyle-story-->
             <div class="flex justify-center items-center">
@@ -499,19 +508,68 @@
             <!--end lifestyle-story-->
 
             <!--subcribe-->
-            <div class="subscribe">
-                <div class="flex justify-center items-center">
-                    <div class="ct-subheadline-decor-line"></div>
-                    <div class="ct-subheadline-label">SIGN UP AND GET FREE COFFEE BAGS</div>
-                    <div class="ct-subheadline-decor-line"></div>
+            <div class="subscribe bg-black-custom text-white my-24 h-[350px] flex justify-center">
+                <div class="flex flex-col justify-center items-center gap-6">
+                    <div class="flex items-center">
+                        <div class="ct-subheadline-decor-line"></div>
+                        <div class="uppercase text-gray-400 mx-2 font-medium tracking-widest text-[13px]">SIGN UP AND
+                            GET FREE COFFEE BAGS
+                        </div>
+                        <div class="ct-subheadline-decor-line"></div>
+                    </div>
+                    <div class="text-4xl font-medium tracking-wider">Coffee Updates</div>
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-4">
+                        <input type="text" placeholder="customer@coffestyle.io"
+                               class="bg-inherit caret-white border-gray-500 border outline-none leading-5 px-6 h-12 md:w-[400px] placeholder:uppercase placeholder:text-xs
+                               placeholder:font-medium placeholder:tracking-widest hover:border-gray-50">
+                        <a href="">
+                            <div class="bg-white text-black px-6 py-4 text-xs font-medium tracking-wider uppercase md:w-full text-center hover:bg-opacity-95">
+                                subscribe
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
             <!--end subcribe-->
         </main>
-        <div class="footer bg-[url('../public/img/slider-bg.jpeg')]">
-            footer
+        <!--main-->
+
+        <!--footer-->
+        <div class="footer flex justify-center items-center">
+            <div class="flex flex-col md:flex-row justify-center gap-20">
+                <div>
+                    <div class="font-bold text-xl tracking-wider mb-8">CoffeeStyle.</div>
+                    <div class="font-medium text-gray-500 text-sm mb-14">Delivering the best coffee life since 1996.
+                        <br>From coffee geeks to the real ones.
+                    </div>
+                    <div class="ct-text-footer">Trungquandev Blog.© 2016</div>
+                </div>
+                <div>
+                    <div class="ct-text-footer uppercase">menu</div>
+                    <div class="ct-text-footer">Home</div>
+                    <div class="ct-text-footer">Our Products</div>
+                    <div class="ct-text-footer">About</div>
+                    <div class="ct-text-footer">Contact</div>
+                    <div class="ct-text-footer">Styleguide</div>
+                </div>
+                <div>
+                    <div class="ct-text-footer uppercase">follow us</div>
+                    <div class="ct-text-footer">Facebook</div>
+                    <div class="ct-text-footer">Instagram</div>
+                    <div class="ct-text-footer">Pinterest</div>
+                    <div class="ct-text-footer">Twitter</div>
+                </div>
+
+                <div>
+                    <div class="ct-text-footer uppercase">contact us</div>
+                    <div class="ct-text-footer">We're Always Happy to Help</div>
+                    <div class="text-2xl text-black-custom tracking-widest mb-8 ">yenjy8@gmail.com</div>
+                    <div class="ct-text-footer">Powered by me</div>
+                </div>
+            </div>
         </div>
     </div>
+    <!--end footer-->
 
 </div>
 </body>

@@ -12,7 +12,8 @@ module.exports = {
                     200: '#C89F94',
                     400: '#A25F4B',
                     600: '#744838',
-                }
+                },
+                'black-custom': '#1d1f2e'
             },
             keyframes: {
                 slideDown: {

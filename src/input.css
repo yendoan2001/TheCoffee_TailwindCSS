@@ -28,3 +28,6 @@
 .ct-subheadline-label {
     @apply uppercase text-gray-500 mx-2 font-medium tracking-widest text-[13px]
 }
+.ct-text-footer {
+    @apply font-medium text-gray-500 text-sm mb-3
+}
